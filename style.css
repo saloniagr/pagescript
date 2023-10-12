@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility !important;
+}
+
+.home-right {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+
+div {
+  display: block;
+}
+
+code {
+
+  padding: 2px;
+  background: #E3FFC4;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+  font-size: inherit;
+}
+
+.image2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 0px;
+}
+.logo {
+  background-color: #ffffff;
+}
+
+.text1 {
+  color: white;
+  margin: 0 6%;
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}  
+
+.text2 {
+  color: white;
+  margin: 0 6%;
+  margin-top: 0;
+  margin-bottom: 0;
+}  
+
+.blue {
+  background-color: #5500FF;
+
+  padding: 15px 6%;
+}
+
+.header2 {
+  background-color: #ffffff;
+  padding: 15px 6%;
+}
+
+.header1 {
+  margin: 0 6%;
+}
+
+.text {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header {
+      padding-left: 20%;
+      padding-right: 20%;
+  }
+
+.below {
+      padding-left: 10%;
+      padding-right: 10%;
+  }    
+
+.container {
+  display: grid;
+
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 70px;
+  background:#ffff;
+}
+
+.cardimg {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.container2 {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.cards {
+  position: relative;
+}
+
+.vwgp {
+  position: absolute;
+  border-radius: 25px;
+  top: -30px;
+  right: -30px;
+}
+
+.subs {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 15px;
+}
+
+.cardtext {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  right: 20px;
+  text-align: left;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.time {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.socialmedia {
+  position: fixed;
+  top: 50px;
+  left: 30px;
+}
+
+.boxy {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  padding: 30px;
+  position: relative;
+  
+}
+
+.boxyy {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  padding: 10px;
+  margin-left: 8%;
+  margin-right: 8%;
+  
+}
+
+.boxyyy {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  padding: 5px;
+  margin-left: 8%;
+  margin-right: 8%;
+  
+}
+
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+.boxy2 {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-style: dotted;
+  border-color: gray;
+  border-width: 2px;
+  padding: 20px;
+  margin-left: 15px;
+  margin-right: 200px;
+
+  
+}
+
+.pp {
+  position: absolute;
+  right: 60px;
+  top: 125px;
+}
+
+.onebox {
+  margin-top: 20px;
+  margin-left: 13px;
+}
+
+.saloni {
+  position: absolute;
+  right: 40px;
+  bottom:40px;
+}
+
+.fullimage {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+.modal {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.4s;
+  visibility: hidden;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.content {
+  
+  background: white;
+  margin-right: 17%;
+  margin-left: 17%;
+  
+  border-radius: 4px;
+  margin: 20px 17% 20px 17%;
+  
+}
+
+.content2 {
+  background: white;
+  border-radius: 4px;
+  margin: 50px 30% 50px 30%;
+}
+
+
+.pop {
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 30px;
+}
+
+.popy {
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  
+}
+
+
+
+.popnomargin {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.share {
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 30px;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.question {
+  position: fixed;
+  top: 50px;
+  right: 30px;
+
+}
+
+.icon {
+  width: 17px;
+}
+
+.content > img {
+ border-radius: 4px;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+.box-close {
+  position: absolute;
+  top: 15px;
+  right: 100px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 40px;
+}
+
